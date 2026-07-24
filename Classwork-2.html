@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            background: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .outer-box {
+            width: 300px;
+            margin: auto;
+            padding: 30px;
+            border: 20px solid #2c3e50;
+            background: #fff;
+        }
+
+        .inner-box {
+            width: 100px;
+            padding: 30px;
+            border: 20px dotted #3498db;
+            background: #ecf0f1;
+        }
+        .extra {
+            width:200px;
+            padding: 30px;
+            border: 20px dashed #e74c3c; 
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="extra">
+            <div class="inner-box">
+                <p>Element</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
