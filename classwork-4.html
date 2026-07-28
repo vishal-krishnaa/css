@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Announcement</title>
+</head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: violet;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            margin-bottom: 24px;
+        }
+
+        .notice-box {
+            position: relative;
+            background: whitesmoke;
+            border: 1px solid black;
+            border-radius: 14px;
+            padding: 28px;
+            overflow: auto;
+        }
+        .notice-box img {
+            float: left;
+            width: 140px;
+            height: 140px;
+            margin: 0 18px 18px 0;
+            border-radius: 12px;
+            border: 2px solid #b8c7d6;
+        }
+
+        .content-area {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .main-content {
+            flex: 1;
+            overflow: auto;
+        }
+
+        .notice-text {
+            color: #334155;
+            padding-top: 10px;
+        }
+
+        .contact-info {
+            flex-shrink: 0;
+            min-width: 180px;
+            padding-left: 16px;
+            border-left: 3px solid #64748b;
+        }
+
+        .badge {
+            position: absolute;
+            top: 18px;
+            right: 18px;
+            background: green;
+            color: #ffffff;
+            padding: 8px 14px;
+            font-weight: 700;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+<body>
+
+    <h1>Important Notice</h1>
+
+    <div class="notice-box">
+
+        <div class="badge">Notice Board</div>
+
+        <div class="content-area">
+            <div class="main-content">
+                <img src="https://imgs.search.brave.com/urB5RNJv2ImmpFXBCTGe2PMZ7rWcZnALo3iUuC0MOcQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Y5Lzg3/LzYwL2Y5ODc2MGU3/ZWNiZDRiNTk1M2Q2/Y2EwNWVkZjhjNjc0/LmpwZw" alt="School announcement image">
+
+                <div class="notice-text">
+                    <p><b>Dear students and parents,</b></p>
+                    <p>The school will be closed this week because of extreme weather conditions. Parents are kindly requested to visit our school website</p>
+                    <p>All classes and school activities are suspended during this period. Students are advised to stay indoors, complete their pending assignments, and regularly check the school website or official communication channels for updates regarding the reopening of the school.<br>
+                    <p></p>We request parents to ensure that children remain safe at home and avoid unnecessary travel. Thank you for your understanding and cooperation..</p>
+                    <p>If you have questions, contact the school office by Thursday evening. Thank you for your cooperation and support.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+</body>
+</html>
