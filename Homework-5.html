@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: black;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .blog {
+            max-width: 700px;
+            margin: 0 auto;
+            background: whitesmoke;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        .blog-title {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: black;
+            
+        }
+
+        .author {
+            color: rebeccapurple;
+            font-style: italic;
+            margin-bottom: 16px;
+        }
+
+        .content {
+            line-height: 1.7;
+            color:blue;
+        }
+
+        .content::first-line {
+            font-weight: bold;
+        }
+
+        .content::first-letter {
+            font-size: 2em;
+            color: red;
+        }
+
+        .quote {
+            margin: 20px 0;
+            padding: 15px 20px ;
+            border-left: 4px solid black;
+            background: whitesmoke;
+            font-style: italic;
+            color: brown;
+        }
+
+        .quote::before {
+            content: "“";
+            font-size: 1.8em;
+            color: orangered;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+            text-decoration: dashed;
+        }
+
+        a:hover {
+            color: orange;
+            text-decoration: underline;
+        }
+        h4 {
+            display:inline-block;
+            margin-right: 40px;
+            padding: 10px;
+            background: red;
+        }
+         h4 + h4{
+            color: beige;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="blog ">
+        <h1 class="blog-title">The Joy of Bike Riding</h1>
+        <p class="author">By Vishal Krishna L</p>
+        <p class="content">
+            Bike riding is one of the best ways to relax and enjoy nature. It is not only a fun hobby but also a great form of exercise. Whether riding through city streets or quiet countryside roads, every journey brings a new experience.
+        </p>
+        <blockquote class="quote">Every ride is a little adventure waiting to happen.</blockquote>
+        <p><a href="https://www.kawasaki.com/en-us/" target="_blank">More about Bikes</a></p>
+        
+        <h4>Car</h4>
+        <h4>Bike</h4>
+        
+    </div>
+</body>
+</html>

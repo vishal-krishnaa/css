@@ -1,42 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 <style>
-    div.one{
-        width: 50px ;
-        border: 5px solid black;
-    }
-    div.two{
-        width: 50px ;
-        border: 5px solid black;
-    }
-    div.three{
-        position: relative;
-        bottom: 20px;
-        left: 20px;
-        width: 50px ;
-        border: 50px solid blue;
-    }
+div ~ p {
+  background-color: yellow;
+}
 </style>
+</head>
 <body>
-    <div class="one">
-        abc<br>
-        def<br>
-        ghi<br>
-    </div>
-    <div class="two">
-        hey<br>
-        hello<br>
-        greeting<br>
-    </div>
-    <div class="three">
-        car<br>
-        scooty<br>
-        bike<br>
-    </div>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section> <!-- not Child but Descendant -->
+  <p>Paragraph 4 in the div.</p>
+</div>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
+<audio></audio>
+
 </body>
 </html>
